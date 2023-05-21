@@ -1,0 +1,17 @@
+.Bar {
+  background-color: #3f8088;
+  margin: 10px;
+  /* width: 728px; */
+  height: 60px;
+  /* light-gray */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #f3f3f3;
+  box-shadow: inset 0px 1px 0px #dddddd;
+}
+
+.flexGrow{
+  flex-grow:1;
+}

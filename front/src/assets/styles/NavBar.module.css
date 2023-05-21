@@ -1,0 +1,56 @@
+.Bar {
+  
+  background-color: #3f8088;
+  margin: 10px;
+  /* width: 728px; */
+  height: 60px;
+  /* light-gray */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #f3f3f3;
+  box-shadow: inset 0px 1px 0px #dddddd;
+}
+.Bar img {
+  padding-block: 0.5rem;
+}
+
+.Bar h4 {
+    /* position: absolute; */
+    width: 52px;
+    height: 19px;
+    font-family: "Roboto Medium";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 19px; */
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    font-feature-settings: "smcp", "c2sc";
+    font-variant: all-small-caps;
+    color: #444444;
+}
+
+.link {
+  color: var(--grey-500);
+  margin-inline: 0.5rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+
+.link.active {
+  background-color: #01b4c6;
+}
+
+@media only screen and (max-width: 600px) {
+  .link {
+    font-size: 0.6em;
+  }
+  .Bar .mui-image-wrapper {
+    width: 1rem !important;
+  }
+}
